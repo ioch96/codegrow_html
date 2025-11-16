@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My first site</title>
+  <link rel="icon" href="images/polytronic.png">
 </head>
 <body>
   <h1>This is heading 1</h1>
@@ -30,8 +31,8 @@
   <!-- This is a comment -->
 
   <hr>
-  <br>
 
+  <h2>Links</h2>
   <a href="https://www.google.com/" title="google link">This is a link with a title</a>
   <br>
   <a href="https://www.facebook.com/" target="_blank">This is a _blank link</a>
@@ -40,14 +41,65 @@
   <br>
   <a href="song.html">Song site</a>
   <br>
-  <br>
 
   <hr>
 
-  <h1>This is Polytronic Logo</h1>
-  <a href="https://www.polytronic.ch/"><img src="images/polytronic.png" width="150" alt="polytronic"></a>
+  <h2>Images</h2>
+  <h3>The Polytronic Logo</h1>
+  <a href="https://www.polytronic.ch"><img src="images/polytronic.png" width="150" alt="polytronic"></a>
   <hr>
   <img src="images/mitropanos.jpg" alt="mitropanos" width="400">
+  
   <hr>
+
+  <h2>Audio</h2>
+  <audio src="music/file_example.mp3" controls autoplay muted loop type="audio/mpeg"></audio>
+  
+  <hr>
+
+  <h2>Video</h2>
+  <a href="https://www.polytronic.ch">
+    <video controls width="500" autoplay muted loop>
+    <source src="file_example_1.mp4" type="video/mp4">
+    <source src="file_example_2.webm" type="video/webm">
+  </video>
+  </a>
+
+  <hr>
+
+  <p>This is a normal text</p>
+  <p>This is a <b>bold</b> text</p>
+  <p>This is a <i>italic</i> text</p>
+  <p>This is a <u>underlined</u> text</p>
+  <p>This is a <del>deleted</del> text</p>
+  <p>This is a <big>big</big> text</p>
+  <p>This is a <small>small</small> text</p>
+  <p>This is a <sub>subscript</sub> text</p>
+  <p>This is a <sup>supscript</sup> text</p>
+  <p>This is a <tt>monospaced</tt> text</p>
+  <p>This is a <mark>marked</mark> text</p>
+
+  <hr>
+
+  <!-- GROUP TOGETHER HTML -->
+  <!-- <span> inline container to group elements -->
+  <!-- <div> block container to group elements  -->
+  <!-- For styling -->
+  
+  <h1><span style="background-color: tomato;">This is a span text</span></h1>
+  <h1><div style="background-color: aqua;">This is a div text</div></h1>
+
+  <hr>
+
+  <p><span style="background-color: tomato;">This is a span sentence</span></p>
+
+  <hr>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color:darkseagreen;">Natus voluptatum voluptas deleniti necessitatibus tempora aut voluptatibus tempore maiores est.</span>Tempora, quam facilis necessitatibus culpa possimus cumque hic nihil provident quae.</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <div style="background-color:aquamarine;">Dolore et repellat nesciunt amet provident, quis fugit consectetur praesentium.</div>Dignissimos quisquam eos ipsam amet? Nisi labore quod placeat et, voluptate aliquid?</p>
+
+  <hr>
+
 </body>
 </html>
